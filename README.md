@@ -1,1 +1,6 @@
-# FP-Growth-Algorithm-for-Export-Strategy-Optimization
+# Analysis of the Relationship between Export Commodities in Indonesia: Implementation of FP-Growth Algorithm for Export Strategy Optimzation
+This project aims to analyze the relationship between various export commodities in Indonesia using the FP-Growth algorithm. Utilizing 2023 export transaction data from Badan Pusat Statistik (BPS), we applied association rule mining to discover hidden patterns in the co-exportation of goods. With over 170,000 transaction rows across 7 variables, we conducted data preprocessing, transformation, and exploratory analysis to better understand export dynamics.
+
+The analysis focused on frequent itemsets and association rules by setting a minimum support of 10% and minimum confidence of 60%. As a result, ten strong association rules were identified, such as the frequent co-occurrence of knitted and non-knitted clothing exports. These rules were evaluated using metrics like lift, support, and confidence, confirming the strength and relevance of the associations.
+
+The implementation of the FP-Growth algorithm provided insights into commodity linkages that can guide exporters in inventory planning, bundling strategies, and logistics optimization. This project also demonstrated how data mining techniques can contribute to formulating more efficient and targeted export strategies for Indonesia. Dataset source: https://www.bps.go.id/id/exim.
